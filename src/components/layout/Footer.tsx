@@ -21,8 +21,8 @@ export default function Footer() {
   return (
     <footer className="bg-surface text-primary font-mono uppercase text-[10px] tracking-widest full-width border-t-2 border-outline flex flex-col md:flex-row justify-between items-center w-full px-8 py-12 gap-4">
       <div className="text-primary font-bold flex items-center gap-2">
-        <span className="material-symbols-outlined">settings_input_component</span>
-        RAW IRON INDUSTRIES
+        <span className="material-symbols-outlined">exercise</span>
+        INDUSTRIAL_GYM_LOG
       </div>
       <div className="flex flex-wrap justify-center gap-6 opacity-80 hover:opacity-100 transition-opacity">
         {footerLinks.map((link) => {
@@ -39,7 +39,7 @@ export default function Footer() {
         })}
       </div>
       <div className="text-outborder-outline">
-        ©{currentYear} RAW IRON INDUSTRIES. TODOS LOS DERECHOS RESERVADOS.
+        ©{currentYear} INDUSTRIAL_GYM_LOG. TODOS LOS DERECHOS RESERVADOS.
       </div>
     </footer>
   );

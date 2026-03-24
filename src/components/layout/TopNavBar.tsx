@@ -6,11 +6,11 @@ import { usePathname } from "next/navigation";
 export default function TopNavBar() {
   const pathname = usePathname();
 
-  const navLinks = [
-    { label: "SOLUCIONES", href: "/#" },
-    { label: "CARACTERÍSTICAS", href: "/#" },
-    { label: "ARCHIVO", href: "/#" },
-    { label: "ACADEMIA", href: "/#" },
+  const navLinks: { label: string; href: string }[] = [
+    // { label: "SOLUCIONES", href: "/#" },
+    // { label: "CARACTERÍSTICAS", href: "/#" },
+    // { label: "ARCHIVO", href: "/#" },
+    // { label: "ACADEMIA", href: "/#" },
   ];
 
   const activeLinkClass = "text-primary border-b-2 border-primary pb-1";
@@ -19,7 +19,7 @@ export default function TopNavBar() {
   return (
     <header className="bg-[#121212] text-primary font-headline uppercase tracking-[2px] font-bold text-sm docked full-width top-0 border-b-2 border-outline flex justify-between items-center w-full px-6 py-4 max-w-full sticky z-40">
       <Link href="/" className="text-2xl font-black tracking-tighter text-primary hover:text-[#FF9100] transition-colors">
-        GYM_LOG
+        INDUSTRIAL_GYM_LOG
       </Link>
       <nav className="hidden md:flex gap-8">
         {navLinks.map((link) => {
