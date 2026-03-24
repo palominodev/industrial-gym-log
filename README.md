@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚙️ INDUSTRIAL_GYM_LOG | RAW_IRON_INDUSTRIES
 
-## Getting Started
+> **EL SISTEMA OPERATIVO PARA EL RENDIMIENTO HUMANO.**  
+> DATOS CRUDOS. MECÁNICAS DE SOBRECARGA PROGRESIVA. EFICIENCIA BRUTAL.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📟 ESTADO_DEL_SISTEMA: `PRODUCCIÓN_ACTIVA`
+`v0.1.0-ESTABLE` | `CONEXIÓN_ENCRIPTADA` | `NÚCLEO: NEXT.JS 16.2.1`
+
+`INDUSTRIAL_GYM_LOG` no es solo una aplicación de seguimiento; es una infraestructura de grado industrial diseñada para optimizar cada gramo de esfuerzo en el gimnasio. Elimina la intuición y reemplázala con protocolos de precisión.
+
+---
+
+## 🛠️ ESPECIFICACIONES_TÉCNICAS
+
+### 📦 ARQUITECTURA_MÓVUL
+*   **INTERFAZ_TERMINAL (v4.0):** Registro de series, repeticiones y RPE con fricción cero.
+*   **PROTOCOLO_QR:** Escaneo instantáneo para acceso a máquinas e identificación sin almacenamiento de imágenes (Privacidad por Diseño).
+*   **VISUALIZACIÓN_DE_CARGA:** Mapas de calor de intensidad y streaks de consistencia.
+
+### 🏢 COMANDO_CENTRAL (B2B)
+*   **GESTIÓN_DE_MIEMBROS:** Incorporación automatizada y seguimiento de actividad.
+*   **ANÁLISIS_AVANZADO:** Métricas de retención y análisis de uso de instalaciones.
+*   **CIERRE_DE_SESIÓN:** Informes técnicos post-operativos de rendimiento.
+
+---
+
+## 🧬 STACK_TECNOLÓGICO
+
+```json
+{
+  "core": "Next.js 16.2.1 (App Router)",
+  "styling": "Tailwind CSS v4 (Industrial Theme Engine)",
+  "database": "Firebase / Google Cloud",
+  "fonts": ["Bebas Neue", "Inter", "JetBrains Mono"],
+  "icons": "Material Symbols (Sharp)"
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 DESPLIEGUE_RÁPIDO
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Requisitos del Sistema
+- `Node.js 18.x` o superior
+- `NPM` / `PNPM` / `BUN`
 
-## Learn More
+### Inicialización
+1. **Clonar el Protocolo:**
+   ```bash
+   git clone https://github.com/tu-usuario/industrial-gym-log.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Cargar Dependencias:**
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Iniciar Núcleo en Desarrollo:**
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Acceder a la Terminal:**
+   Abra `http://localhost:3000` para entrar al sistema.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📜 PROTOCOLOS_LEGALES
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*   [Política de Privacidad](PRIVACY_POLICY.md)
+*   [Términos y Condiciones](Terminos%20y%20condiciones.md)
+
+---
+
+## ⚠️ AVISO_DE_SEGURIDAD
+Este sistema está optimizado para levantadores de alto rendimiento. El uso inadecuado de las mecánicas de sobrecarga progresiva puede resultar en fallos estructurales (lesiones). Consulte con un profesional de la salud antes de ejecutar protocolos de alta intensidad.
+
+---
+**RAW IRON INDUSTRIES © 2026**  
+*MECÁNICAS PURAS. RESULTADOS BRUTALES.*
