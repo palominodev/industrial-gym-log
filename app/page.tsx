@@ -8,24 +8,7 @@ import estadisticasImg from "@/src/assets/images/estadisticas.jpeg";
 
 export default function Home() {
   return (
-    <>
-      <div className="noise-overlay"></div>
-
-      {/* Header / TopNavBar from JSON */}
-      <header className="bg-[#121212] text-primary font-headline uppercase tracking-[2px] font-bold text-sm docked full-width top-0 border-b-2 border-outline flex justify-between items-center w-full px-6 py-4 max-w-full sticky z-40">
-        <div className="text-2xl font-black tracking-tighter text-primary">GYM_LOG</div>
-        <nav className="hidden md:flex gap-8">
-          <Link className="text-primary border-b-2 border-primary pb-1" href="#">SOLUCIONES</Link>
-          <Link className="text-on-surface hover:text-primary transition-colors" href="#">CARACTERÍSTICAS</Link>
-          <Link className="text-on-surface hover:text-primary transition-colors" href="#">ARCHIVO</Link>
-          <Link className="text-on-surface hover:text-primary transition-colors" href="#">ACADEMIA</Link>
-        </nav>
-        <button className="bg-primary text-[#121212] px-4 py-2 hover:bg-primary hover:text-[#121212] transition-all duration-75 scale-95 active:bg-[#FF9100] font-bold">
-          ACCESO_CLIENTE
-        </button>
-      </header>
-
-      <main>
+    <main>
         {/* Hero Section */}
         <section className="relative min-h-[921px] flex flex-col items-start justify-center px-6 md:px-12 py-20 border-b-2 border-outline">
           <div className="absolute inset-0 z-0">
@@ -258,24 +241,6 @@ export default function Home() {
             <p className="mt-8 font-mono text-xs text-outborder-outline uppercase tracking-widest">SINCRONIZACIÓN DE DATOS ENCRIPTADA ACTIVA // v2.4.9-ESTABLE</p>
           </div>
         </section>
-      </main>
-
-      {/* Footer */}
-      <footer className="bg-surface text-primary font-mono uppercase text-[10px] tracking-widest full-width border-t-2 border-outline flex flex-col md:flex-row justify-between items-center w-full px-8 py-12 gap-4">
-        <div className="text-primary font-bold flex items-center gap-2">
-          <span className="material-symbols-outlined">settings_input_component</span>
-          RAW IRON INDUSTRIES
-        </div>
-        <div className="flex flex-wrap justify-center gap-6 opacity-80 hover:opacity-100 transition-opacity">
-          <Link className="text-outborder-outline hover:text-on-surface" href="/privacy-policy">PROTOCOLOS_LEGALES</Link>
-          <Link className="text-outborder-outline hover:text-on-surface" href="#">ESTADO_DEL_SISTEMA</Link>
-          <Link className="text-outborder-outline hover:text-on-surface" href="#">DOCS_API</Link>
-          <Link className="text-outborder-outline hover:text-on-surface" href="#">REGISTRO_MANTENIMIENTO</Link>
-        </div>
-        <div className="text-outborder-outline">
-          ©{new Date().getFullYear()} RAW IRON INDUSTRIES. TODOS LOS DERECHOS RESERVADOS.
-        </div>
-      </footer>
-    </>
+    </main>
   );
 }

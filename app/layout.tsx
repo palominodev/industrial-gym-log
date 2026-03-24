@@ -43,6 +43,10 @@ export const metadata: Metadata = {
   },
 };
 
+import NoiseOverlay from "@/src/components/ui/NoiseOverlay";
+import TopNavBar from "@/src/components/layout/TopNavBar";
+import Footer from "@/src/components/layout/Footer";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -53,8 +57,13 @@ export default function RootLayout({
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
       </head>
-      <body className={`${oswald.variable} ${jetbrainsMono.variable} antialiased overflow-x-hidden min-h-full flex flex-col font-mono`}>
-        {children}
+      <body className={`${oswald.variable} ${jetbrainsMono.variable} antialiased overflow-x-hidden min-h-screen flex flex-col font-mono bg-[#121212]`}>
+        <NoiseOverlay />
+        <TopNavBar />
+        <div className="flex-1 flex flex-col">
+          {children}
+        </div>
+        <Footer />
       </body>
     </html>
   );
