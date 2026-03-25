@@ -8,7 +8,7 @@
 ## 📟 ESTADO_DEL_SISTEMA: `PRODUCCIÓN_ACTIVA`
 `v0.1.0-ESTABLE` | `CONEXIÓN_ENCRIPTADA` | `NÚCLEO: NEXT.JS 16.2.1`
 
-`INDUSTRIAL_GYM_LOG` no es solo una aplicación de seguimiento; es una infraestructura de grado industrial diseñada para optimizar cada gramo de esfuerzo en el gimnasio. Elimina la intuición y reemplázala con protocolos de precisión.
+`INDUSTRIAL_GYM_LOG` es una infraestructura digital de alto rendimiento optimizada para la monitorización de fuerza y protocolos de sobrecarga progresiva. Diseñada bajo una estética industrial de grado operativo, la plataforma permite el registro preciso de series, repeticiones e intensidad (RPE) con una interfaz de fricción cero. Incorpora escaneo QR para la gestión de acceso e identificación de estaciones sin almacenamiento persistente de imágenes. Desde el comando central, facilita la gestión avanzada de miembros y el análisis técnico del rendimiento, convirtiendo datos crudos en protocolos de entrenamiento eficaces.
 
 ---
 

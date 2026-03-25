@@ -1,6 +1,7 @@
 {
   "name": "industrial-gym-log",
   "version": "0.1.0",
+  "description": "Infraestructura industrial para el registro de fuerza y sobrecarga.",
   "private": true,
   "scripts": {
     "dev": "next dev",
