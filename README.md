@@ -49,7 +49,7 @@
 ### Inicialización
 1. **Clonar el Protocolo:**
    ```bash
-   git clone https://github.com/tu-usuario/industrial-gym-log.git
+   git clone https://github.com/palominodev/industrial-gym-log.git
    ```
 
 2. **Cargar Dependencias:**
